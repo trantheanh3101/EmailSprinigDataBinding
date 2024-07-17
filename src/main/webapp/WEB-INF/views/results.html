@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Settings Result</title>
+</head>
+<body>
+<h1>Settings Updated</h1>
+<p>Language: <span th:text="${emailSettings.language}"></span></p>
+<p>Page Size: <span th:text="${emailSettings.pageSize}"></span></p>
+<p>Spam Filter: <span th:text="${emailSettings.spamFilter}"></span></p>
+<p>Signature: <span th:text="${emailSettings.signature}"></span></p>
+</body>
+</html>
